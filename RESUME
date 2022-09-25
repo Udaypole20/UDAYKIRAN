@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title{RESUME}
+\author{ }
+\date{}
+
+\begin{document}
+
+\maketitle
+\section{\textbf{Name}: Uday kiran Pole }
+\section{\textbf{Address }: Ramnagar Polepally,Nalgonda,Telangana.}
+\section{Marks}
+\subsection{Metriculation}
+\begin{tabular}{|c|c|c|c|}
+\hline
+s.no. & Subject & Marks & Grade \\
+\hline
+1 & Telugu & 98 & Ex \\
+\hline
+2 & Hindi & 95 & Ex \\
+\hline
+3 & English & 95 & Ex \\
+\hline
+4 & Maths & 97 & Ex \\
+\hline
+5 & Physics & 99 & Ex \\
+\hline
+6 & IT & 100 & Ex \\
+\hline
+\end{tabular}
+\subsection{Pre-University course}
+\begin{tabular}{|c|c|c|c|}
+\hline
+s.no. & Subject & grade & credits \\
+\hline
+1 & Telugu & Ex & 3\\
+\hline
+2 & english & Ex & 3\\
+\hline
+3 & maths & Ex & 3\\
+\hline
+4 & chemistry & Ex & 3\\
+\hline
+\end{tabular}
+\section{\textbf{Hobbies} :   }
+\begin{itemize}
+\item learning new things \\
+\item riding bike\\
+\item watching science fictuon movies\\
+\end{itemize}
+\section{\textbf{Extra-circular activities} :}
+\begin{itemize}
+\item  Going to chess competions IN Mandal levels\\
+\item dancing\\
+\end{itemize}
+\begin{figure}
+    \includegraphics[uday.jpg]
+    
+\end{figure}
+
+\end{document}
