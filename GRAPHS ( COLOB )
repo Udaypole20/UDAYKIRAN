@@ -1,0 +1,90 @@
+UDAYKIRAN POLE
+
+a=1
+b=75
+print(a+b)
+print(type(a))
+print("hello world")
+out put:   hello world
+
+a=37
+print(a+1)
+print(a*3) 
+out put:
+ 38
+111
+<.................................>
+import numpy as np
+myarr=np.array([1,2,3,4,5,])
+myarr.shape
+out put:
+   (5,)
+myarr.size
+    (5,)
+    
+    arr=np.array([[1,2,3],
+              [4,5,6,],
+              [8,7,6,]])
+              
+    ar2=np.array([[1,2,3],
+              [4,5,6,],
+              [8,7,6,]])
+              ar1*ar2
+   out put:
+   array([[ 1,  4,  9],
+       [16, 25, 36],
+       [64, 49, 36]])
+       <.......................>
+       import matplotlib.pyplot as plt
+       x = np.arange(0, 10, 0.1)
+       y = x**2
+       fig = plt.figure(figsize = (6,6))
+plt.scatter(y, x,s = 10,marker ='o',edgecolor="red", alpha =1 )
+plt.show()
+x = np.arange(0, 10, 0.1)
+y = np.sin(x)
+z= np.cos(x)
+fig=plt.figure(figsize=(5,5))
+plt.plot(y,y,color="red")
+plt.plot(y,z,color="green")
+plt.show()
+ 
+ pie chart
+ 
+ gases={"Nitrogen":49.4,"Oxygen":24.95,"Argon":2.93,"carbondioxide":3.1,"Othergases":10.46}
+ 
+ percentages=list(gases.values())
+ categories=list(gases.keys())
+ from matplotlib.patches import Shadow
+fig=plt.figure(figsize=(10,10))
+plt.pie(x=percentage,labels=categories
+,colors=["red","green","pink","black","blue"],explode=[0,0.1,0.2,0,0],shadow=True)
+print(len(x))
+plt.title(" Gases Pie chart")
+plt.legend=(["Nitogen","Oxygen","Argon","carbondioxide","Othergases"])
+plt.show()
+
+fig=plt.figure(figsize=(5,5))
+plt.bar(x=categories,height=percentage
+,color=["red","green","pink","white","blue"]
+,edgecolor="black")
+plt.xlabel("categories")
+plt.ylabel("percentage")
+plt.title("BAR GRAPH")
+plt.show()
+
+fig=plt.figure(figsize=(5,5))
+plt.barh(y=categories,width=percentage
+,color=["red","green","pink","white","blue"]
+,edgecolor="black")
+plt.xlabel("categories")
+plt.ylabel("percentage")
+plt.title("BAR GRAPH")
+plt.show()
+
+height=[135,170,156,178,180,168,183,185,147,164]
+
+fig=plt.figure(figsize=(8,8))
+plt,plt.hist(height,color="green",edgecolor="blue",bins=5)
+plt.show()
+Footer
