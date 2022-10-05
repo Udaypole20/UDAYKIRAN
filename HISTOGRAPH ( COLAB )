@@ -1,0 +1,18 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x=np.arange(0,20,0.1)
+y=np.sin(x)
+z=np.tan(x)
+fig=plt.figure(figsize=(10,10))
+plt.plot(x,y)
+plt.plot(x,z,marker="*")
+plt.show()
+<.................>
+import matplotlib.pyplot as plt 
+import numpy as np
+a=[2,4,3,234,35,65,76,87,5654,454,23434,6]
+
+fig=plt.figure(figsize=(10,10))
+plt.hist(a,edgecolor="black",bins=3)
+plt.show()
+Footer
